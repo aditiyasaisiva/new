@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-auth.js"></script>
+
+    <script src = "form.js"></script>
+    <title>Authentication with Firebase</title>
+
+</head>
+<h1>Authentication for Firebase 2021</h1>
+<div id = "forContainer"><div id = "header"></div>
+
+    <body>
+    <label for="email"></label><input type = "email" placeholder="email" id = "email"/>
+    <label for="password"></label><input type = "password" placeholder="password" id = "password"/>
+    <br><br>
+    <button onclick="signUp()" id="signUp">Sign Up</button>
+    <button onclick="signIn()" id="signIn">Sign In</button>
+    <button onclick="signOut()" id="signOut">Sign Out</button>
+    </body>
+</div>
+</html>
